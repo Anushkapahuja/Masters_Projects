@@ -11,7 +11,7 @@ def cartesian_to_internal(cartesian_coords):
     com_H34 = center_of_mass([cartesian_coords[2], cartesian_coords[3]])
     print('com_H34:', com_H34)
     
-        # Define the distances between their centres of mass
+    # Define the distances between their centers of mass
     R = np.linalg.norm(com_H34 - com_H12)
 
     # Calculate theta 
