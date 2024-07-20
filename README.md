@@ -28,13 +28,13 @@ The script performs the following key functions:
 
 ### Description
 
-The **Cartesian to Internal Coordinates** script is designed to convert Cartesian coordinates of molecular structures into internal coordinates. This script is specific for the H2 dimer system system considered in 6D
+The **Cartesian to Internal Coordinates** script is designed to convert Cartesian coordinates of molecular structures into internal coordinates. This script is specific for the H<sub>2</sub> dimer system system considered in 6D
 
 The script provides the following functionalities:
 
-- **Input Handling**: Reads molecular geometries provided in Cartesian coordinates format (typically XYZ format).
+- **Input Handling**: Reads molecular geometries provided in Cartesian coordinates format.
 - **Coordinate Transformation**: Converts the Cartesian coordinates into internal coordinates such as bond lengths, bond angles, and dihedral angles.
 - **Output**: Outputs the internal coordinates, which can be used for further computational analyses and simulations.
 
-This script is a valuable tool to work with internal coordinates of H_2 dimer in 6D.
+This script is a valuable tool to work with internal coordinates of H<sub>2</sub> dimer in 6D. Another script was also written to do the vice-versa transformation and is named as **Internal to Cartesian**
 
